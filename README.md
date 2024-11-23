@@ -1,4 +1,4 @@
-# HA Ticket - Application de Gestion des Tickets et Utilisateurs
+Application de Gestion des Tickets et Utilisateurs
 
 ## 📋 Description
 Application web professionnelle développée pour gérer les tickets de modification/suppression de transactions, les bons d'achat et les utilisateurs CEGID dans une chaîne de magasins.
