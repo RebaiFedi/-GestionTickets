@@ -119,4 +119,4 @@ npm run dev
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
 ## 📧 Contact
-[Vos informations de contact]
+Rebaii@hotmail.com
