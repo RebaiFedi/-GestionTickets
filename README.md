@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HA Ticket - Application de Gestion des Tickets et Utilisateurs
 
-## Getting Started
+## 📋 Description
+Application web professionnelle développée pour gérer les tickets de modification/suppression de transactions, les bons d'achat et les utilisateurs CEGID dans une chaîne de magasins.
 
-First, run the development server:
+## 🚀 Fonctionnalités principales
 
-```bash
+### Gestion des tickets
+- Création de tickets de suppression/modification de transactions
+- Workflow de validation hiérarchique (Store → District → Admin)
+- Archivage et historique des tickets
+- Upload et visualisation des pièces justificatives
+
+### Gestion des bons d'achat
+- Vérification des bons d'achat
+- Suivi du statut des bons
+- Génération de PDF
+
+### Gestion des utilisateurs CEGID
+- Création de demandes d'utilisateurs
+- Workflow de validation
+- Attribution des accès
+
+### Administration
+- Tableau de bord avec statistiques en temps réel
+- Gestion des rôles (Admin, District, Store, Consulting)
+- Interface de gestion des magasins et districts
+
+## 🛠 Technologies utilisées
+
+### Frontend
+- React.js / Next.js
+- TypeScript
+- TailwindCSS
+- Framer Motion (animations)
+- Recharts (graphiques)
+- Axios
+
+### Backend
+- Node.js
+- Express
+- MongoDB
+- JWT (authentification)
+- Nodemailer
+- Multer (gestion des fichiers)
+
+## 🔧 Installation
+Cloner le repository
+git clone [https://github.com/votre-username/ha-ticket.git](https://github.com/RebaiFedi/GestionTickets.git)
+
+Installer les dépendances du frontend
+cd ha-ticket
+npm install
+Installer les dépendances du backend
+cd backend
+npm install
+
+Configuration
+Créer un fichier .env dans le dossier backend avec les variables suivantes :
+MONGO_URI=votre_uri_mongodb
+JWT_SECRET=votre_secret_jwt
+SMTP_HOST=votre_host_smtp
+SMTP_PORT=votre_port_smtp
+SMTP_USER=votre_email
+SMTP_PASS=votre_password
+SMTP_FROM=email_expediteur
+
+Lancer l'application
+Dans le dossier backend
+npm start
+Dans le dossier principal
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Rôles et permissions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Admin
+- Gestion complète des utilisateurs
+- Validation finale des tickets
+- Accès aux statistiques globales
 
-## Learn More
+### District
+- Validation des tickets des magasins
+- Gestion des utilisateurs ERP
+- Accès aux statistiques du district
 
-To learn more about Next.js, take a look at the following resources:
+### Store
+- Création de tickets
+- Vérification des bons d'achat
+- Gestion des transferts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Consulting
+- Visualisation des statistiques
+- Accès en lecture seule
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 Roadmap
+- [ ] Intégration avec ERP
+- [ ] Application mobile
+- [ ] Module de reporting avancé
+- [ ] Système de notifications push
 
-## Deploy on Vercel
+## 👥 Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 Contact
+[Vos informations de contact]
