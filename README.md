@@ -99,6 +99,22 @@ npm run dev
 - [ ] Module de reporting avancé
 - [ ] Système de notifications push
 
+
+## 📱 Captures d'écran
+![Capture d'écran](AppTicket/1.png)  
+![Capture d'écran](AppTicket/2.png)  
+![Capture d'écran](AppTicket/3.png)  
+![Capture d'écran](AppTicket/4.png)  
+![Capture d'écran](AppTicket/5.png)  
+![Capture d'écran](AppTicket/6.png)  
+![Capture d'écran](AppTicket/7.png)  
+![Capture d'écran](AppTicket/8.png)  
+![Capture d'écran](AppTicket/9.png)  
+![Capture d'écran](AppTicket/10.png)  
+![Capture d'écran](AppTicket/11.png)  
+![Capture d'écran](AppTicket/12.png)  
+
+
 ## 👥 Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
