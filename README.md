@@ -46,7 +46,7 @@ Application web professionnelle développée pour gérer les tickets de modifica
 
 ## 🔧 Installation
 Cloner le repository
-git clone [https://github.com/votre-username/ha-ticket.git](https://github.com/RebaiFedi/GestionTickets.git)
+git clone https://github.com/RebaiFedi/GestionTickets.git
 
 Installer les dépendances du frontend
 cd ha-ticket
