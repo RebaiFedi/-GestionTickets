@@ -1,7 +1,7 @@
 Application de Gestion des Tickets et Utilisateurs
 
 ## 📋 Description
-Application web professionnelle développée pour gérer les tickets de modification/suppression de transactions, les bons d'achat et les utilisateurs CEGID dans une chaîne de magasins.
+Application web professionnelle développée pour gérer les tickets de modification/suppression de transactions, les bons d'achat et les utilisateurs ERP dans une chaîne de magasins.
 
 ## 🚀 Fonctionnalités principales
 
@@ -16,7 +16,7 @@ Application web professionnelle développée pour gérer les tickets de modifica
 - Suivi du statut des bons
 - Génération de PDF
 
-### Gestion des utilisateurs CEGID
+### Gestion des utilisateurs ERP
 - Création de demandes d'utilisateurs
 - Workflow de validation
 - Attribution des accès
